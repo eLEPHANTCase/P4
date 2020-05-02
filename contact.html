@@ -1,0 +1,183 @@
+<!-- DEVELOPER: Orville Dillon, Jr., IS117-004, Spring 2020 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>eLEPHANTCase</title>
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<center><a href="index.html"><img src="eCase_Logo.jpg" alt="eLEPHANTCase Logo" height="100px" width="99%"></a></center>
+</head>
+<body style="background-color: #a0a0a0">
+<div class="container-fluid text-center">
+	<div class="row">
+		<nav text-center class="navbar navbar-expand-md justify-content-start bg-medium navbar-light col-12">
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav">
+					<!-- aBOUt Dropdown Menu -->
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+							aBOUt
+						</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="contact.html">cONTACt</a>
+						<a class="dropdown-item" href="motive.html">mOTIVe</a>
+					</div>
+					</li>
+					<!-- End aBOUt Dropdown Menu -->
+
+					<!-- wIp (Works in Progress) Dropdown Menu -->
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+							wIp
+						</a>
+                                        <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="wip_web.html">wEb</a>
+                                                <a class="dropdown-item" href="wip_system.html">sYSTEm</a>
+                                        </div>
+                                        </li>
+					<!-- End wIp Dropdown Menu -->
+
+					<!-- rEVERSe eNGINEERINg Dropdown Menu -->
+					<li class="nav-item dropdown">
+	<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+		rEVERSe_eNGINEERINg
+	</a>
+	<div class="dropdown-menu">
+		<a class="dropdown-item" href="#">wRITe_uPs</a>
+	</div>
+					</li>
+					<!-- End of rEVERSe_eNGINEERINg Dropdown -->
+
+					<!-- bLOGGINGs Dropdown Menu -->
+					                                        <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                                        bLOGGINGs
+                                                </a>
+                                        <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="thoughts.html">tHOUGHTs</a>
+                                                <a class="dropdown-item" href="bloggings_fashions.html">fASHIONs</a>
+						<a class="dropdown-item" href="mal_bio_sim.html">tECh</a>
+                                        </div>
+                                        </li>
+					<!-- End of bLOGGINGs Dropdown Menu -->
+
+					<!-- lINKs Dropdown Menu -->
+					                                        <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                                        lINKs
+                                                </a>
+                                        <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="pers_links.html">"pROFESSIOnal"</a>
+                                                <a class="dropdown-item" href="prof_links.html">pERSONal</a>
+                                        </div>
+                                        </li>
+					<!-- End of lINKs Dropdown Menu -->
+
+			</div>
+			</li>
+				</ul>
+	</div>
+		</nav>
+
+
+		<!-- End of NavBar Dropdown Menu -->
+
+		<!-- SideNav/Options -->
+<div class="container-fluid text-center">
+	<div class="row content">
+		<div class="col-sm-2 sidenav">
+			<p><a href="#">tOPICs</a></p>
+			<p><a href="#tech">tECh</a></p>
+			<p><a href="#news">nEWs</a></p>
+			<p><a href="#science">sCIENCe</a></p>
+			<p><a href="#martialarts">mARTIAl_aRTs</a></p>
+			</font>
+		</div>
+		<div class="col-sm-8 text-left">
+			<H4>eLEPHANTCase</h4><br>
+			<p><b>Contact Form:</b></p>
+			<hr>
+			<!-- Commence Contact Form -->
+<div class="row">
+	<div class="col-md-9 mb-md-0 mb-5">
+		<form id="contact-form" name="contact-form" action="mail" method="POST">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="md-form mb-0">
+						<input type="text" id="name" name="name" class="form-control">
+						<label for="name" class="">Name</label>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="md-form mb-0">
+						<input type="text" id="email" name="email" class="form-control">
+						<label for="email" class="">E-Mail</label>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="md-form mb-0">
+						<input type="text" id="subject" name="subject" class="form-control">
+						<label for="subject" class="">Subject</label>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="md-form">
+						<textarea type="text" id="message" name="message" rows="5" class="form-control md-textarea"></textarea>
+						<label for="message">Message</label>
+					</div>
+				</div>
+			</div>
+		</form>
+		<!-- End of Contact Form -->
+
+
+		</div>
+
+		<!-- Content for right DIV/side -->
+		<div class="col-sm-2 sidenav">
+			<div class="right_side">
+				<p><a href="#top">tOp</a></p>
+			</div>
+			<hr>
+			<div class="right_side">
+				<p><a href="#bottom">bOTTOm</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<style>
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	color: teal;
+	text-align: center;
+}
+</style>
+<footer>
+	<p>
+	<center>
+	&copy; Copyright 2020, Orville Dillon, Jr.
+	</center>
+	</p>
+</footer>
+
+
+
+</body>
+</html>
+
